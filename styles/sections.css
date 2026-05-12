@@ -2,8 +2,6 @@ section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 14px;
     font: var(--text-span);
-    align-items: center;
-    justify-content: space-between;
 
     a {
         justify-self: end;
@@ -101,15 +99,14 @@ section header {
         width: 176px;
         aspect-ratio: 1/1;
         object-fit: cover;
+        margin-bottom: 32px;
     }
 
     h3 {
         margin-block: 8px 4px;
     }
 
-    p {
-        margin-block: 8px 32px;
-    }
+
 
 }
 
@@ -120,11 +117,11 @@ aside {
 #more {
     margin-top: 32px;
 
-
-
     img {
         width: 72px;
         aspect-ratio: 1/1;
         object-fit: cover;
+        margin-bottom: 32px;
     }
+
 }
